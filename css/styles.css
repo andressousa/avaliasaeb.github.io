@@ -10845,11 +10845,12 @@ header.masthead {
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
+  min-height: calc(100vh - 96px);
 }
 header.masthead:before {
   content: "";
   position: absolute;
-  background-color: #1c375e;
+  background-color: #fff;
   height: 100%;
   width: 100%;
   top: 0;
